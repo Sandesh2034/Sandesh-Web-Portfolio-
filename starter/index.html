@@ -1,45 +1,75 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sandesh's Portfolio</title>
+    <link rel="stylesheet" href="./starter/css/style.css" />
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sandesh</h1>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#work-section">Work</a></li>
+                    <li><a href="#contact-section">Contact Me</a></li>
+                    <li><a href="#resume-section">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section id="about-section">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Sandesh, and this is my personal website. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam eget turpis vel felis vestibulum cursus. Proin ut nisl ac risus eleifend hendrerit id vel mi.
+        </p>
+        
+        <h3>My Interests</h3>
+        <ul>
+            <li>Programming</li>
+            <li>Reading</li>
+            <li>Traveling</li>
+            <!-- Add more interests as needed -->
+        </ul>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <section id="work-section">
+        <h2>Work</h2>
+
+        <!-- Large image at the top -->
+        <img src="large-image.jpg" alt="Large Image" style="width: 100%; max-height: 400px; object-fit: cover;">
+
+        <!-- Two medium-sized images in the middle -->
+        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <img src="medium-image1.jpg" alt="Medium Image 1" style="width: 48%; object-fit: cover;">
+            <img src="medium-image2.jpg" alt="Medium Image 2" style="width: 48%; object-fit: cover;">
+        </div>
+
+        <!-- Two medium-sized images at the bottom -->
+        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <img src="medium-image3.jpg" alt="Medium Image 3" style="width: 48%; object-fit: cover;">
+            <img src="medium-image4.jpg" alt="Medium Image 4" style="width: 48%; object-fit: cover;">
+        </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section id="contact-section">
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to contact me at <a href="mailto:sandesh@example.com">sandesh@example.com</a>.
+        </p>
     </section>
-  </main>
+
+    <section id="resume-section">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="resume.pdf" target="_blank">Resume PDF</a></p>
+    </section>
+
 </body>
-
 </html>
