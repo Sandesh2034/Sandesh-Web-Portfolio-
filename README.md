@@ -13,11 +13,19 @@ I'm Sandesh, a passionate web developer with a love for clean code and intuitive
 - Modern Design: The portfolio is crafted with a modern design aesthetic, making it visually appealing and user-friendly.
 
 ## How to Use
-1. Clone the repository to your local machine: git clone https://github.com/your-username/sandesh-portfolio.git
+1. Clone the repository to your local machine: git clone https://github.com/Sandesh2034/Sandesh-Web-Portfolio-.git
 
 2. Open the index.html file in your preferred web browser.
 
 3. Explore the various sections and get to know more about my skills, projects, and interests.
+
+## Assets
+- ![profile](<starter/images/Web Profile.png>)
+- ![image 1](starter/images/02-run-buddy.jpg)
+- ![image 2](starter/images/02-portfolio-4.jpg)
+- ![image 3](starter/images/02-portfolio-3.jpg)
+- ![image 4](starter/images/02-portfolio-2.jpg)
+- ![image 5](starter/images/02-portfolio-1.jpg)
 
 ## Technologies Used
 - HTML
